@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdelivery.com.itdelivery.ComplementoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbcebola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cebola" />
+
+        <CheckBox
+            android:id="@+id/cbpalmito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Palmito" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cboregano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oregano" />
+
+        <CheckBox
+            android:id="@+id/cbtomate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="91dp"
+            android:text="Tomate Seco" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbpimentadoreino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pimenta do Reino" />
+
+        <CheckBox
+            android:id="@+id/cbpimentatabasco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:text="Pimenta Tabasco" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbazeitona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azeitona" />
+
+        <CheckBox
+            android:id="@+id/cbalho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Alho" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

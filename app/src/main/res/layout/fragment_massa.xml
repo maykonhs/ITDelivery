@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdelivery.com.itdelivery.MassaFragment">
+
+    <RadioGroup
+        android:id="@+id/rgmassa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rbtradicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="tradicional"/>
+
+        <RadioButton
+            android:id="@+id/rbintegral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integral"/>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgespessura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <RadioButton
+            android:id="@+id/rbfina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Fina"/>
+
+        <RadioButton
+            android:id="@+id/rbmedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Média"/>
+
+        <RadioButton
+            android:id="@+id/rbgrossa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grossa"/>
+
+    </RadioGroup>
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdelivery.com.itdelivery.CarneFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbpresunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Presunto"/>
+
+        <CheckBox
+            android:id="@+id/cbpeitoperu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peito de Peru" />
+
+        <CheckBox
+            android:id="@+id/cbpeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peperoni" />
+
+        <CheckBox
+            android:id="@+id/cbcalabresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calabresa" />
+
+        <CheckBox
+            android:id="@+id/cblombo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lombo" />
+
+        <CheckBox
+            android:id="@+id/cbbacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacon" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

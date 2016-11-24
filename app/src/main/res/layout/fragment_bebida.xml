@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdelivery.com.itdelivery.BebidaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cbrefrigerante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigerante" />
+
+    <CheckBox
+        android:id="@+id/cbcerveja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerveja" />
+
+    <CheckBox
+        android:id="@+id/cbvinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinho" />
+
+    <CheckBox
+        android:id="@+id/cbagua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Água" />
+
+    </LinearLayout>
+
+</FrameLayout>

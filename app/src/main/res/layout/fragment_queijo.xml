@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdelivery.com.itdelivery.QueijoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbmussarela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mussarela" />
+
+        <CheckBox
+            android:id="@+id/cbcatupiry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catupiry" />
+
+        <CheckBox
+            android:id="@+id/cbprovolone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provolone" />
+
+        <CheckBox
+            android:id="@+id/cbcheddar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheddar" />
+
+        <CheckBox
+            android:id="@+id/cbgorgonzola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gorgonzola" />
+
+    </LinearLayout>
+
+</FrameLayout>
